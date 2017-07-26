@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #008ae6;
   font-weight: 300;
   overflow-x: hidden;
@@ -15,7 +15,11 @@ body {
 }
 
 .dolp-flip-logo {
-  padding-top: 20px;
+
+}
+
+#main-logo {
+  max-width: 300px;
 }
 
 .imgmargins {

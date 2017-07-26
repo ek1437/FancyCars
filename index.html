@@ -6,6 +6,7 @@
   <meta content="portfolio" name="description">
   <meta content="Tykisha Pittman" name="keywords">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -20,11 +21,11 @@
     <!-- Top -->
     <header class="row">
 
-      <div class="col-md-6 middle">
-        <img class="dolpin-flip-logo" src="images/hotwheelslogo.png" alt="dolphin logo">
+      <div class="col-md-4 middle">
+        <img id="main-logo" src="images/hotwheelslogo.png" alt="dolphin logo">
       </div>
 
-      <div class="col-md-6 text-right text-uppercase middle">
+      <div class="col-md-8 text-right text-uppercase middle">
         <h1 class="text-name">fancy cars</h1>
         <h3>bmw x6 suv, tesla model s, range rover velar</h3>
       </div>
@@ -41,13 +42,13 @@
     <!-- Dolphin Image -->
     <main class="row">
       <div class="col-md-12">
-        <img class="img-responsive imgmargins" src="images/bmwX6snow.jpg" alt="dolphin">
+        <img class="img-responsive imgmargins" src="images/dash.jpg" alt="dolphin">
       </div>
     </main>
 
       <!-- Title -->
       <div class="row">
-        <div class="col-md-12 middle">
+        <div class="col-md-12 middle text-center">
           <h2 class="featured-dolphin">Profile</h2>
         </div>
       </div>
@@ -55,25 +56,99 @@
       <!-- Three Dolphin Images-->
       <div class="row">
         <div class="col-md-4 text-center">
-          <img class="img-circle img-responsive center-block" src="images/Tai.jpeg" alt="bottlenose-dolphin">
+          <img class="img-circle img-responsive center-block" src="images/Tai.jpeg" alt="bottlenose-dolphin" data-toggle="modal" data-target="#car1">
           <h3 class="text-uppercase text-attention">Tykisha Pittman</h3>
-          <p>https://github.com/udacity/bmw-x6-suv/</p>
+          
         </div>
 
         <div class="col-md-4 text-center">
-          <img class="img-circle img-responsive center-block" src="images/eshawn.jpg" alt="dolphin show">
+          <img class="img-circle img-responsive center-block" src="images/eshawn.jpg" alt="dolphin show" data-toggle="modal" data-target="#car2">
           <h3 class="text-uppercase text-attention">Eshawn Karim</h3>
-          <p>https://github.com/udacity/tesla model s/</p>
+          
         </div>
 
         <div class="col-md-4 text-center">
-          <img class="img-circle img-responsive center-block" src="images/kareem.jpg" alt="spinner-dolphin">
+          <img class="img-circle img-responsive center-block" src="images/kareem.jpg" alt="spinner-dolphin" data-toggle="modal" data-target="#car3">
           <h3 class="text-uppercase text-attention">Doyin Kareem</h3>
-          <p>https://github.com/udacity/range rover velar/</p>
+          
         </div>
       </div>
 
     </div>
 
+
+   <div class="modal fade" id="car1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Ty's BMW</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://files.slack.com/files-pri/T66MKF18S-F6ER3460N/bmwx6snow.jpg">
+                    <br>
+                    <ul>
+                      <li>MSRP: From $62,500</li>
+                      <li>Horsepower: 300 to 445 hp</li>
+                      <li>MPG: Up to 18 city / 25 highway</li>
+                      <li>Dimensions: 192L x 78W x 67H</li>
+                      <li>Towing capacity: 6,000 lbs</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="modal fade" id="car2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Eshawns's Tesla Model S</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://files.slack.com/files-pri/T66MKF18S-F6EQYC9HU/teslamodels17.jpg">
+                    <br>
+                    <ul>
+                      <li>MSRP: From $68,000</li>
+                      <li>Horsepower: 382 to 691 hp</li>
+                      <li>MPG: Up to 102 city / 107 highway</li>
+                      <li>Dimensions: 196L x 77W x 57H</li>
+                      <li>Towing capacity: 233 lbs</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="car3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">DK's Range Rover Velar</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="https://www.landrover.com/Images/L560_18MY_275_GLHD_DX_Device-Desktop_550x321_281-293995_550x321.jpg?v=10">
+                    <br>
+                    <ul>
+                      <li>MSRP: From $49,650</li>
+                      <li>Horsepower: 254 to 550 hp</li>
+                      <li>MPG: Up to 22 city / 28 highway</li>
+                      <li>Dimensions: 191L x 78W x 70H</li>
+                      <li>Towing capacity: 7716 lbs</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+     
   </body>
   </html>
