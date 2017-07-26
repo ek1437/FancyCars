@@ -10,6 +10,10 @@ body {
   margin-bottom: 45px;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
 .dolp-flip-logo {
   padding-top: 20px;
 }
